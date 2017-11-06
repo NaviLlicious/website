@@ -1,0 +1,76 @@
+body
+{
+	background-color: #1a1d22;
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+}
+
+#navbar
+{
+	background-color: #222;
+	z-index: 1;
+}
+
+.navbarLeft
+{
+	text-align: left;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	z-index: 2;
+	top: 25px;
+}
+
+.navbarLeft li
+{
+	display: inline-block;
+}
+
+.navbarLeft li:hover
+{
+	background-color: #333;
+}
+
+.navbarLeft li a,visited
+{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+}
+
+.navbarLeft li a:hover
+{
+	
+}
+
+.login
+{
+	text-align: right;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	position: relative;
+	top: -20px;
+	z-index: 3;
+}
+
+.login li
+{
+	display: inline-block;
+}
+
+.login li:hover
+{
+	background-color: #333;
+}
+
+.login li a,visited
+{
+	color: #ccc;
+	display: block;
+	padding: 15px;
+}
+
+

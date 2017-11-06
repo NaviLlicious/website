@@ -1,3 +1,4 @@
+/* full page background, obviously */
 body
 {
 	background-color: #1a1d22;
@@ -6,71 +7,83 @@ body
 	overflow-y: scroll;
 }
 
+/* Navbar styling, this is the background color that goes across the header */
 #navbar
 {
-	background-color: #222;
+	background-color: #1f212a;
 	z-index: 1;
+	height: 57px;
 }
 
-.navbarLeft
+/* This is the logo image and positioning */
+.logo
+{
+	position: relative;
+	top: 12px;
+}
+
+/* This is the redirect links in the header */
+.navbarContent
 {
 	text-align: left;
 	list-style-type: none;
 	padding: 0;
 	margin: 0;
 	position: relative;
-	z-index: 2;
-	top: 25px;
 }
 
-.navbarLeft li
+/* This makes it so the links display side by side */
+.navbarContent li
 {
 	display: inline-block;
 }
 
-.navbarLeft li:hover
+/* Hover state for the links */
+.navbarContent li:hover
 {
-	background-color: #333;
+	background-color: rgba(255,255,255,0.03);
+	border-bottom: 2px solid #f9d22a;
+	
 }
 
-.navbarLeft li a,visited
+/* Creates and separates the links in the navbar using a block */
+.navbarContent li a,visited
 {
 	color: #ccc;
 	display: block;
 	padding: 15px;
 }
 
-.navbarLeft li a:hover
+/* Hover state for the dropdown menu */
+.navbarContent li a:hover
 {
 	
 }
 
-.login
+/* Container that holds the current image, this can be changed and resized here */
+.container
 {
-	text-align: right;
-	list-style-type: none;
-	padding: 0;
-	margin: 0;
+	width: 100%;
+	height: 500px;
+	background-image: url("http://www.disturbed1.com/sites/g/files/g2000002776/f/201506/flatbush-facebook-opengraph-d2c_0.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-bottom: 4px solid #1a1d22;
+}
+
+/* This container will hold whatever we want below the main container */
+.container2
+{
+	color: white;
+	width: 100%;
+	height: 400px;
+	background-color: #1a1d22;
 	position: relative;
-	top: -20px;
-	z-index: 3;
 }
 
-.login li
+/* Footer position and styling */
+.footer
 {
-	display: inline-block;
+	position: relative;
+	color: white;
 }
-
-.login li:hover
-{
-	background-color: #333;
-}
-
-.login li a,visited
-{
-	color: #ccc;
-	display: block;
-	padding: 15px;
-}
-
-

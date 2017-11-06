@@ -1,1 +1,1 @@
-# website
+Updated the website and commented on what everything does so far
